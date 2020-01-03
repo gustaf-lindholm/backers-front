@@ -1,0 +1,27 @@
+
+input {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  pointer-events: none;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  overflow: visible;
+  box-sizing: border-box;
+  padding: 0;
+}
+.btn {
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+label {
+  margin: 0;
+  border-radius: 0;
+}
+
+.dropdown-menu {
+  padding: 0;
+  min-width: 0;
+}
