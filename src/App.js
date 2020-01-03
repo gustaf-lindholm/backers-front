@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import Navigation from "./components/Navbar/Navbar";
+import Routes from "./Routes";
 
 
 
-function App(props) {
+function App() {
   const [lang, setLang] = useState("se");
 
   const handleLanguage = lang => {
@@ -13,6 +14,7 @@ function App(props) {
   return (
     <div className="App">
       <Navigation lang={lang} handleLanguage={handleLanguage}/>
+      <Routes appProps={{lang}}/>
     </div>
   );
 }
