@@ -12,7 +12,7 @@ export const Navigation = () =>  {
   return (
     <Navbar as="nav" bg="light" expand="lg">
       <Navbar.Brand>
-        <Link to="/">Backers</Link>
+        <Link to={localizeRouteKey(AppRoute["Home"])}>Backers</Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

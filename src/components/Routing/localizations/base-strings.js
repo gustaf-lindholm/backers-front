@@ -9,7 +9,7 @@ const baseStrings = {
   'home.content': 'Thank you for visiting this multi-language routing example.',
 
   'cafe.title': 'Cafe',
-  'cafe.content': 'Read more about the article on {medium} or {devto}.',
+  'cafe.content': 'Cafe content text',
 
   'error.title': 'Error',
   'error.content': 'This page decided to take a vacation. Try again later.',

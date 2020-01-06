@@ -11,7 +11,6 @@ export function LanguageSwitcher() {
     <NavDropdown title="Language">
       <ToggleButtonGroup name="language" type="radio" vertical>
         {Object.keys(AppLanguage).map(lang => {
-          
           return (
             <ToggleButton key={lang}>
               <NavLink to={getMatchingRoute(AppLanguage[lang])}>
@@ -30,13 +29,12 @@ export function LanguageSwitcher() {
      */
     const [, route] = pathname.split(locale);
     const routeKey = Object.keys(messages).find(key => messages[key] === route);
-    
+
     /**
      * Find the matching route for the new language
      */
     const matchingRoute = appStrings[language][routeKey];
-    
-    console.log(matchingRoute)
+
     /**
      * Return localized route
      */

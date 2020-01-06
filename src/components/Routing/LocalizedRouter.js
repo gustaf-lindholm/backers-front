@@ -16,7 +16,6 @@ export const LocalizedRouter = ({
          * Set default locale to en if base path is used without a language
          */
         const params = match ? match.params : {};
-        console.log("PARAMS: ",match)
         const { lang = AppLanguage || AppLanguage.Swedish } = params;
 
         /**

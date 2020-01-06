@@ -1,9 +1,9 @@
 import React from "react";
-
+import { FormattedMessage } from 'react-intl';
 
 export default function Cafe(props) {
-  console.log(props)
+  console.log("[CAFE]",props)
   return (
-    <h1>Cafe component</h1>
+    <FormattedMessage id="cafe.content" />
   )
 }
