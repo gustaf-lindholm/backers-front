@@ -1,22 +1,12 @@
 import React from "react";
-import { Helmet } from "react-helmet";
-import { useIntl} from "react-intl";
 
 export default function Home(props) {
-  // const {messages} = useIntl();
-  // console.log(messages)
+  const background = {
+    backgroundImage: "url(https://dummyimage.com/1000x1000.jpg)"
+  };
   return (
-    <>
-      <Helmet>
-        {/* <title>{intl.formatters.getMessageFormat({id: "home.pagetitle"})}</title> */}
-        <meta name="description" content="Backers Backer - Ekologiskt bröd" />
-      </Helmet>
-      <div>
-        <div>HERO</div>
-        <div>INFO</div>
-        <div>KARTA</div>
-        <div>PRODUKTER</div>
-      </div>
-    </>
+    <article className="bg-white">
+      <div className="vh-75 cover bg-center" style={background}></div>
+    </article>
   );
 }

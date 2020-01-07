@@ -7,9 +7,9 @@ export function LanguageSwitcher() {
   const { pathname } = useLocation();
   const { locale, messages } = useIntl();
   return (
-        Object.keys(AppLanguage).map(lang => {
+        Object.keys(AppLanguage).map((lang, key) => {
           return (
-              <NavLink to={getMatchingRoute(AppLanguage[lang])}>
+              <NavLink key={key} className="f6 link dim ba bw1 ph3 pv2 mb2 mh3 dib white" to={getMatchingRoute(AppLanguage[lang])}>
                 {AppLanguage[lang]}
               </NavLink>
           );

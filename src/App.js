@@ -12,7 +12,6 @@ import {
 } from "./components/Routing";
 import Bakery from "./components/Bakery/Bakery";
 import Products from "./components/Products/Products";
-import { Helmet } from "react-helmet";
 
 function App() {
 
