@@ -1,5 +1,4 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 import { useIntl} from "react-intl";
 
@@ -12,12 +11,12 @@ export default function Home(props) {
         {/* <title>{intl.formatters.getMessageFormat({id: "home.pagetitle"})}</title> */}
         <meta name="description" content="Backers Backer - Ekologiskt bröd" />
       </Helmet>
-      <Container>
-        <Row>HERO</Row>
-        <Row>INFO</Row>
-        <Row>KARTA</Row>
-        <Row>PRODUKTER</Row>
-      </Container>
+      <div>
+        <div>HERO</div>
+        <div>INFO</div>
+        <div>KARTA</div>
+        <div>PRODUKTER</div>
+      </div>
     </>
   );
 }

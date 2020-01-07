@@ -1,7 +1,6 @@
 import React from "react";
 import { useIntl } from "react-intl";
 import { AppRoute, AppRouteTitles } from "../../const/app-routes";
-import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { LanguageSwitcher } from "../Routing";
