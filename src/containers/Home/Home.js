@@ -1,8 +1,23 @@
 import React from "react";
+import { Container, Row } from "react-bootstrap";
+import { Helmet } from "react-helmet";
+import { useIntl} from "react-intl";
 
 export default function Home(props) {
-  console.log(props)
+  // const {messages} = useIntl();
+  // console.log(messages)
   return (
-    <h1>Home container</h1>
-  )
+    <>
+      <Helmet>
+        {/* <title>{intl.formatters.getMessageFormat({id: "home.pagetitle"})}</title> */}
+        <meta name="description" content="Backers Backer - Ekologiskt bröd" />
+      </Helmet>
+      <Container>
+        <Row>HERO</Row>
+        <Row>INFO</Row>
+        <Row>KARTA</Row>
+        <Row>PRODUKTER</Row>
+      </Container>
+    </>
+  );
 }

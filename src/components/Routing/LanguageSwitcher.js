@@ -2,25 +2,18 @@ import React from "react";
 import { AppLanguage } from "../../const/app-languages";
 import { NavLink, useLocation } from "react-router-dom";
 import { useIntl } from "react-intl";
-import { ToggleButton, ToggleButtonGroup, NavDropdown } from "react-bootstrap";
 import { appStrings } from "./";
 export function LanguageSwitcher() {
   const { pathname } = useLocation();
   const { locale, messages } = useIntl();
   return (
-    <NavDropdown title="Language">
-      <ToggleButtonGroup name="language" type="radio" vertical>
-        {Object.keys(AppLanguage).map(lang => {
+        Object.keys(AppLanguage).map(lang => {
           return (
-            <ToggleButton key={lang}>
               <NavLink to={getMatchingRoute(AppLanguage[lang])}>
                 {AppLanguage[lang]}
               </NavLink>
-            </ToggleButton>
           );
-        })}
-      </ToggleButtonGroup>
-    </NavDropdown>
+        })
   );
 
   function getMatchingRoute(language) {

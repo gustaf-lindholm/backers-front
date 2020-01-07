@@ -10,8 +10,12 @@ import {
   LocalizedSwitch,
   appStrings
 } from "./components/Routing";
+import Bakery from "./components/Bakery/Bakery";
+import Products from "./components/Products/Products";
+import { Helmet } from "react-helmet";
 
 function App() {
+
   return (
     <LocalizedRouter
       RouterComponent={BrowserRouter}
@@ -22,6 +26,8 @@ function App() {
         <LocalizedSwitch>
           <Route exact path={AppRoute.Home}>{Home}</Route>
           <Route exact path={AppRoute.Cafe}>{Cafe}</Route>
+          <Route exact path={AppRoute.Bakery}>{Bakery}</Route>
+          <Route exact path={AppRoute.Products}>{Products}</Route>
           <Route path="*">{Error}</Route>
         </LocalizedSwitch>
       </Layout>
