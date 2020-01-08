@@ -17,8 +17,7 @@ const baseStrings = {
   "home.cafe.hours.saturday": "lördag klockan 09-15",
   "home.slogan":
     "Backers goda ekologiska bröd hittar du i butiker från Hangö till Helsingfors, på Åland och i Stockholm.",
-  "home.contactinfo":
-    "Borgbyvägen 2, Bollstad 019-246 1658 info(at)backers.fi",
+  "home.contactinfo": "Borgbyvägen 2, Bollstad 019-246 1658 info(at)backers.fi",
 
   "cafe.title": "Café",
   "cafe.maintitle": "Backers kafé och bageributik",
@@ -38,17 +37,19 @@ const baseStrings = {
     "Du hittar oss på Borgbyvägen 2, i Bollstad. Kör mot Fiskars och följ skyltarna till Backers bageri.",
 
   "bakery.title": "Bageriet",
-  "bakery.maintitle": "Backers – ekologiskt brödhantverk från Västnyland",
+  "bakery.maintitle": "Backers ekologiskt brödhantverk från Västnyland",
   "bakery.maincontent":
     "Backers Baker Ab är ett familjeföretag som levererar ekologiskt matbröd, kaffebröd samt säsongprodukter som julstjärnor, runebergstårtor och memma till dagligvaruhandeln i Finland. Backers kända skärgårdsbröd, rågsurbröd och speltknäckebröd säljs även i Sverige och på Åland. Backers ekologiska, lokalproducerade och för hand bakade produkter tillför mångfald i butikernas produktsortiment. Här kan du bekanta dig med våra produkter.",
 
   "bakery.subtitle.one": "Leveransbeställningar",
   "bakery.subcontent.one":
-    "    Vill du bli en fortgående leveranskund hos oss på Backers? Kontakta vår försäljning för mer information. Anders Lindholm tel. +358 44 300 2058",
+    "Vill du bli en fortgående leveranskund hos oss på Backers? Kontakta vår försäljning för mer information. Anders Lindholm tel. +358 44 300 2058",
 
   "bakery.subtitle.two": "Enskilda beställningar",
   "bakery.subcontent.two":
     "För enskilda beställningar med egen avhämtning tag kontakt med kaféet tel. +358-19-241 1674 (under kaféets öppethållningstider) eller kafe(at)backers.fi.",
+
+  "bakery.obs": "Obs! I fall du beställt från oss tidigare och redan finns i vårt register kan du lämna din beställning på order(at)backers.fi",
 
   "products.title": "Produkter",
   "products.maincontent":
