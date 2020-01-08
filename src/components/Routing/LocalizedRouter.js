@@ -30,7 +30,7 @@ export const LocalizedRouter = ({
          * Return Intl provider with default language set
          */
         return (
-          <IntlProvider locale={lang} messages={appStrings[lang]}>
+          <IntlProvider locale={lang} messages={appStrings[lang]} defaultLocale="se">
             {children}
           </IntlProvider>
         );

@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet-async";
 
 export default function Bakery(props) {
   const background = {
-    backgroundImage: "url(https://dummyimage.com/1000x1000.jpg)"
+    backgroundImage: "url(https://dummyimage.com/1500x1000.jpg)"
   };
 
   return (
