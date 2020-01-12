@@ -9,11 +9,11 @@ export const fi = {
   /** Page content */
   "home.title": "Backers",
   "home.cafe.info": "Kahvila ja leipomomyymälä Fiskarsin kupeessa.",
-  "home.cafe.hours.weekdays": "maanantai-perjantai 08.00-17.00",
+  "home.cafe.hours.weekdays": "maanantai-perjantai 08.00-17.00</br>lauantai 09.00-15.00",
   "home.cafe.hours.saturday": "lauantai 09.00-15.00",
   "home.slogan":
     "Backersin maistuvat luomuleivät löydät myymälöistä Helsingistä Hankoon, sekä Ahvenanmaalta ja Tukholmastakin.",
-  "home.contactinfo": "Borgbyntie 2, Bollstad 019-246 1658 info(at)backers.fi",
+  "home.contactinfo": "Borgbyntie 2, Bollstad</br>019-246 1658</br>info(at)backers.fi",
   "home.subslogan": "",
 
   "cafe.title": "Kahvila",

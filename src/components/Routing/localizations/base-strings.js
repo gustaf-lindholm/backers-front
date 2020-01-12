@@ -13,11 +13,11 @@ const baseStrings = {
   /** Page content */
   "home.title": "Backers",
   "home.cafe.info": "Kafé och bageributik i Raseborg strax utanför Fiskars.",
-  "home.cafe.hours.weekdays": "måndag – fredag klockan 08-17",
+  "home.cafe.hours.weekdays": "måndag – fredag klockan 08-17 </br> lördag klockan 09-15",
   "home.cafe.hours.saturday": "lördag klockan 09-15",
   "home.slogan":
     "Backers goda ekologiska bröd hittar du i butiker från Hangö till Helsingfors, på Åland och i Stockholm.",
-  "home.contactinfo": "Borgbyvägen 2, Bollstad 019-246 1658 info(at)backers.fi",
+  "home.contactinfo": "Borgbyvägen 2, Bollstad</br>019-246 1658</br>info(at)backers.fi",
 
   "cafe.title": "Café",
   "cafe.maintitle": "Backers kafé och bageributik",

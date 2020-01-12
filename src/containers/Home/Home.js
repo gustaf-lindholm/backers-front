@@ -24,48 +24,12 @@ export default function Home(props) {
       </Helmet> */}
       <article className="bg-white">
         <div className="vh-25 cover bg-center" style={background}></div>
-        <section className="cf mt5 pv5 ph6-l">
-          <InfoCard messageId="home.cafe.info"/>
-          <InfoCard messageId="home.slogan"/>
+        <section className="cf ph6-l">
+          <InfoCard image="fikabröd" messageId="home.cafe.info"/>
+          <InfoCard image="ekologisk_maltlimpa" messageId="home.slogan"/>
+          <InfoCard image="ekologisk_smörgås" messageId="home.cafe.hours.weekdays"/>
+          <InfoCard image="ekologiskt_bröd" messageId="home.contactinfo"/>
         </section>
-        <FlexContainer className="flex flex-wrap items-center">
-          <div className="w-50-ns w-100-m pa3 flex justify-center">
-
-            <div className="w-75">
-              <h3 className="f3 lh-copy measure">
-                <FormattedMessage id="home.cafe.info" />
-              </h3>
-            </div>
-          </div>
-          <div className="w-50-ns w-100-m pa3 flex justify-center">
-            <div className="w-25 flex justify-center items-center">
-            </div>
-            <div className="w-75">
-              <h3 className="f3 lh-copy measure">
-                <FormattedMessage id="home.cafe.hours.weekdays" />
-              </h3>
-              <h3 className="f3 lh-copy measure">
-                <FormattedMessage id="home.cafe.hours.saturday" />
-              </h3>
-            </div>
-          </div>
-          <div className="w-50-ns w-100-m pa3 flex justify-center">
-            <div className="w-75">
-              <h3 className="f3 lh-copy measure">
-                <FormattedMessage id="home.slogan" />
-              </h3>
-            </div>
-          </div>
-          <div className="w-50-ns w-100-m pa3 flex justify-center">
-            <div className="w-25 flex justify-center items-center">
-            </div>
-            <div className="w-75">
-              <h3 className="f3 lh-copy measure">
-                <FormattedMessage id="home.contactinfo" />
-              </h3>
-            </div>
-          </div>
-        </FlexContainer>
       </article>
     </>
   );
