@@ -16,7 +16,7 @@ import Products from "./components/Products/Products";
 
 function App() {
   return (
-    <HelmetProvider>
+    <>
       <LocalizedRouter
         RouterComponent={BrowserRouter}
         languages={AppLanguage}
@@ -40,7 +40,7 @@ function App() {
           </LocalizedSwitch>
         </Layout>
       </LocalizedRouter>
-    </HelmetProvider>
+    </>
   );
 }
 

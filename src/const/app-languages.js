@@ -1,4 +1,4 @@
 export const AppLanguage = {
-  "Swedish": "se",
-  "Finnish": "fi"
+  Swedish: "se",
+  Finnish: "fi"
 }

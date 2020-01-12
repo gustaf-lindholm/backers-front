@@ -1,6 +1,6 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
-import { Helmet } from "react-helmet-async";
+// import { Helmet } from "react-helmet-async";
 
 export default function Bakery(props) {
   const background = {
@@ -9,9 +9,6 @@ export default function Bakery(props) {
 
   return (
     <>
-      <Helmet>
-        <title>asdf</title>
-      </Helmet>
       <article className="bg-white">
         <div className="vh-25 cover bg-center" style={background}></div>
         <div className="ph4 ph5-m ph6-l">
