@@ -1,5 +1,5 @@
 import React from "react";
-// import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet-async";
 import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
 import InfoCard from "../../components/Cards/InfoCard";

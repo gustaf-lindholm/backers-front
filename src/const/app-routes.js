@@ -4,6 +4,7 @@ export const AppRoute = {
   Cafe: "routes.cafe",
   Bakery: "routes.bakery",
   Products: "routes.products",
+  Stores: "routes.stores",
   // Error: "routes.error"
 }
 
@@ -15,5 +16,6 @@ export const AppRouteTitles = new Map([
   [AppRoute.Cafe, 'cafe.title'],
   [AppRoute.Bakery, 'bakery.title'],
   [AppRoute.Products, 'products.title'],
+  [AppRoute.Stores, 'stores.title'],
   [AppRoute.Error, 'error.title']
 ]);

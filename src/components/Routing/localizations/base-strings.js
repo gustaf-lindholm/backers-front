@@ -61,6 +61,8 @@ const baseStrings = {
   "error.content": "This page decided to take a vacation. Try again later.",
 
   "button.navigation": "Vägbeskrivning",
+
+  "stores.title": "Butiker"
 };
 
 export const LanguageStrings = baseStrings;

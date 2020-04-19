@@ -52,7 +52,7 @@ export const fi = {
   "bakery.obs": "Huom! Jos olet tilannut meiltä aikaisemmin voit lähettää tilauksen suoraan sähköpostitse osoitteeseen order(at)backers.fi.",
   "products.title": "Tuotteet",
 
-  "button.navigation": "Ohjeet",
+  "stores.title": "Myyntipaikkat",
 };
 
 // Yhteystiedot
