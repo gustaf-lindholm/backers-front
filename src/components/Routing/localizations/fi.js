@@ -4,6 +4,7 @@ export const fi = {
   "routes.cafe": "/kahvila",
   "routes.bakery": "/leipomo",
   "routes.products": "/tuotteet",
+  "routes.store": "/Myyntipaikkat",
   "routes.error": "/error",
 
   /** Page content */
@@ -53,6 +54,13 @@ export const fi = {
   "products.title": "Tuotteet",
 
   "stores.title": "Myyntipaikkat",
+
+  "footer.title": "Yhteistiedot",
+  "footer.companyName": "Backers Baker Oy",
+  "footer.address": "Borgbyntie 2, 10440 Bollstad Finland",
+  "footer.phonePrefix": "puh. ",
+  "footer.phone": "+358-19-246 1658",
+  "footer.email": "info(at)backers.fi"
 };
 
 // Yhteystiedot

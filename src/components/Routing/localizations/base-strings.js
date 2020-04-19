@@ -4,6 +4,7 @@ const baseStrings = {
   "routes.cafe": "/cafe",
   "routes.bakery": "/bageriet",
   "routes.products": "/produkter",
+  "routes.store": "/Butiker",
   "routes.error": "/error",
 
   /** Page title and meta description **/
@@ -62,7 +63,15 @@ const baseStrings = {
 
   "button.navigation": "Vägbeskrivning",
 
-  "stores.title": "Butiker"
+  "stores.title": "Butiker",
+
+  "footer.title": "Kontakt",
+  "footer.companyName": "Backers Baker Ab",
+  "footer.address": "Borgbyvägen 2, 10440 Bollstad Finland",
+  "footer.phone": "+358-19-246 1658",
+  "footer.phonePrefix": "tel. ",
+  "footer.email": "info(at)backers.fi"
+
 };
 
 export const LanguageStrings = baseStrings;
