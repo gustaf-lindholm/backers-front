@@ -1,0 +1,38 @@
+function mapsSelector(name) {
+  if (
+    /* if we're on iOS, open in Apple Maps */
+    navigator.platform.indexOf('iPhone') != -1 ||
+    navigator.platform.indexOf('iPod') != -1 ||
+    navigator.platform.indexOf('iPad') != -1
+  ) {
+    window.open('maps://maps.google.com/maps?daddr=lat,long&amp;ll=');
+    /* else use Google */
+  } else {
+    window.open(`https://maps.google.com/maps/dir// ${name}`);
+  }
+}
+
+// Google maps API InfoWindow cant take html string or node
+const Marker = (props) => {
+  const navigationButton = document.createElement('a');
+  navigationButton.classList =
+    'ba br3 f5 no-underline black pointer dim inline-flex items-center pa3 border-box';
+
+  const cardText = document.createElement('span');
+  cardText.classList = 'pl1';
+  cardText.innerText = props.name;
+
+  const icon = document.createElement('i');
+  icon.classList = 'fas fa-directions fa-2x';
+
+  navigationButton.appendChild(icon);
+  navigationButton.appendChild(cardText);
+
+  navigationButton.addEventListener('click', () => {
+    mapsSelector(props.name);
+  });
+
+  return navigationButton;
+};
+
+export default Marker;

@@ -4,7 +4,7 @@ import { FormattedMessage, FormattedHTMLMessage} from "react-intl";
 
 export default function InfoCard(props) {
   const { messageId } = props;
-  const image = require(`../../assets/images/${props.image}.jpg`);
+  const image = `https://res.cloudinary.com/babiluskus/image/upload/v1586975703/backers-simple-front/${props.image}.jpg`;
   const Wrapper = styled.div.attrs({
     className: "fl w-100 w-50-ns border-box overflow-hidden ba bw2 white"
   })``;
@@ -13,8 +13,8 @@ export default function InfoCard(props) {
     className: "grow cover bg-center pv5 pv6-l"
   })``;
 
-  const cafebg = { backgroundImage: `url(${image})` };
-  // styled.Cover`
+  const background = { backgroundImage: `url(${image})` };
+  // styled.cover`
   //   background-image: url(${image});
   // `;
 
@@ -26,7 +26,7 @@ export default function InfoCard(props) {
   `;
   return (
     <Wrapper>
-      <Cover style={cafebg}>
+      <Cover style={background}>
         <div className="h4 bg-near-white o-80">
         </div>
           <P className="black f4-l f5-m f6 lh-copy flex justify-center items-center h4 w-100 absolute pa4">

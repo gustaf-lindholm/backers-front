@@ -58,7 +58,9 @@ const baseStrings = {
     "Observera! Den här sidan innehåller inte hela vårt sortiment. Fler produkter uppdateras efter hand. För aktuell sortimentlista till ditt leveransområde kontakta vår försäljning.",
 
   "error.title": "Error",
-  "error.content": "This page decided to take a vacation. Try again later."
+  "error.content": "This page decided to take a vacation. Try again later.",
+
+  "button.navigation": "Vägbeskrivning",
 };
 
 export const LanguageStrings = baseStrings;

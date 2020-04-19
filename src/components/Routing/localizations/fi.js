@@ -49,7 +49,10 @@ export const fi = {
   "bakery.subcontent.two":
     "Noudettavat yksittäistilaukset voit tehdä suoraan kahvilaan puh. +358-19-241 1674 (kahvilan aukioloaikoina) sekä kafe(at)backers.fi.",
 
-  "products.title": "Tuotteet"
+  "bakery.obs": "Huom! Jos olet tilannut meiltä aikaisemmin voit lähettää tilauksen suoraan sähköpostitse osoitteeseen order(at)backers.fi.",
+  "products.title": "Tuotteet",
+
+  "button.navigation": "Ohjeet",
 };
 
 // Yhteystiedot
