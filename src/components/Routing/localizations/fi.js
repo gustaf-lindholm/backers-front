@@ -4,7 +4,7 @@ export const fi = {
   "routes.cafe": "/kahvila",
   "routes.bakery": "/leipomo",
   "routes.products": "/tuotteet",
-  "routes.store": "/Myyntipaikkat",
+  "routes.stores": "/myyntipaikkat",
   "routes.error": "/error",
 
   /** Page content */

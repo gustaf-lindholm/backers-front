@@ -13,6 +13,7 @@ import {
 } from "./components/Routing";
 import Bakery from "./components/Bakery/Bakery";
 import Products from "./components/Products/Products";
+import StoreFinder from "./containers/StoreFinder/StoreFinder";
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
             </Route>
             <Route exact path={AppRoute.Products}>
               {Products}
+            </Route>
+            <Route exact path={AppRoute.Stores}>
+              {StoreFinder}
             </Route>
             <Route path="*">{Error}</Route>
           </LocalizedSwitch>

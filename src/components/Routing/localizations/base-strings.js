@@ -4,7 +4,7 @@ const baseStrings = {
   "routes.cafe": "/cafe",
   "routes.bakery": "/bageriet",
   "routes.products": "/produkter",
-  "routes.store": "/Butiker",
+  "routes.stores": "/butiker",
   "routes.error": "/error",
 
   /** Page title and meta description **/
