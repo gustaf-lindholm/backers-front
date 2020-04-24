@@ -31,20 +31,20 @@ const Footer = () => {
           </h3>
           <div className="">
             <a
-              class="link near-black hover-silver dib mh3 tc"
+              className="link near-black hover-silver dib mh3 tc"
               href="https://facebook.com"
               title="Facebook"
             >
-              <i class="fab fa-instagram fa-3x"></i>
-              <span class="f6 db">Instagram</span>
+              <i className="fab fa-instagram fa-3x"></i>
+              <span className="f6 db">Instagram</span>
             </a>
             <a
-              class="link near-black hover-silver dib mh3 tc"
+              className="link near-black hover-silver dib mh3 tc"
               href="https://facebook.com"
               title="Facebook"
             >
-              <i class="fab fa-facebook-f fa-3x"></i>
-              <span class="f6 db">Facebook</span>
+              <i className="fab fa-facebook-f fa-3x"></i>
+              <span className="f6 db">Facebook</span>
             </a>
           </div>
         </div>

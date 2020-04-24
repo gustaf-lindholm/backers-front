@@ -1,11 +1,11 @@
-function mapsSelector(name) {
+function mapsSelector(name, lat, long) {
   if (
     /* if we're on iOS, open in Apple Maps */
     navigator.platform.indexOf('iPhone') != -1 ||
     navigator.platform.indexOf('iPod') != -1 ||
     navigator.platform.indexOf('iPad') != -1
   ) {
-    window.open('maps://maps.google.com/maps?daddr=lat,long&amp;ll=');
+    window.open(`maps://maps.google.com/maps?daddr=${lat},${long}&amp;ll=`);
     /* else use Google */
   } else {
     window.open(`https://maps.google.com/maps/dir// ${name}`);
@@ -14,6 +14,7 @@ function mapsSelector(name) {
 
 // Google maps API InfoWindow cant take html string or node
 const Marker = (props) => {
+  console.log(props)
   const navigationButton = document.createElement('a');
   navigationButton.classList =
     'ba br3 f5 no-underline black pointer dim inline-flex items-center pa3 border-box';
@@ -29,7 +30,7 @@ const Marker = (props) => {
   navigationButton.appendChild(cardText);
 
   navigationButton.addEventListener('click', () => {
-    mapsSelector(props.name);
+    mapsSelector(props.name, props.latitude, props.longitude);
   });
 
   return navigationButton;
