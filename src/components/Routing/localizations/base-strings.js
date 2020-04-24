@@ -70,7 +70,8 @@ const baseStrings = {
   "footer.address": "Borgbyvägen 2, 10440 Bollstad Finland",
   "footer.phone": "+358-19-246 1658",
   "footer.phonePrefix": "tel. ",
-  "footer.email": "info(at)backers.fi"
+  "footer.email": "info(at)backers.fi",
+  "footer.socialMedia": "Backers på sociala medier"
 
 };
 

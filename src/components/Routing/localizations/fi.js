@@ -60,7 +60,8 @@ export const fi = {
   "footer.address": "Borgbyntie 2, 10440 Bollstad Finland",
   "footer.phonePrefix": "puh. ",
   "footer.phone": "+358-19-246 1658",
-  "footer.email": "info(at)backers.fi"
+  "footer.email": "info(at)backers.fi",
+  "footer.socialMedia": "Backers somessa"
 };
 
 // Yhteystiedot

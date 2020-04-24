@@ -13,3 +13,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ba-yellow {
+  color: rgb(247,217,61);
+}
+
+.ba-grey {
+  color: rgb(208, 210, 211);
+}
+
+.ba-brown {
+  color: rgb(151, 95, 53);
+}
+
+/*
+* Backers färger
+* GUL: PANTONE 7404 C	247	217	61	#F7D93D
+* GRÅ: PANTONE 427 C	208	210	211	#D0D2D3
+* BRUN: PANTONE 4635 C	151	95	53	#975F35
+*/
