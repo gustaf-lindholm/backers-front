@@ -2,13 +2,14 @@ import React from 'react';
 import { FormattedMessage } from 'react-intl';
 
 const ArticleComponent = (props) => {
+  const { subject, image, quote } = props;
+
   const background = {
-    backgroundImage: 'url(https://dummyimage.com/1500x1000.jpg)',
+    backgroundImage: `url(https://res.cloudinary.com/babiluskus/image/upload/v1586975703/backers-simple-front/${image}.jpg)`,
   };
-  const { subject, quote } = props;
   return (
     <article className="bg-white pb5">
-      <div className="vh-25 cover bg-center" style={background}></div>
+      <div className="vh-50 cover bg-center" style={background}></div>
       <div className="ph4 ph5-m ph6-l">
         <div className="pv5 f4 f2-ns measure center">
           <h1 className="f2 lh-copy">

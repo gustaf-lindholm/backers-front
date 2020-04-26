@@ -38,9 +38,9 @@ const baseStrings = {
     "Du hittar oss på Borgbyvägen 2, i Bollstad. Kör mot Fiskars och följ skyltarna till Backers bageri.",
 
   "bakery.title": "Bageriet",
-  "bakery.maintitle": "Backers ekologiskt brödhantverk från Västnyland",
+  "bakery.maintitle": "Backers - ekologiskt brödhantverk från Västnyland",
   "bakery.maincontent":
-    "Backers Baker Ab är ett familjeföretag som levererar ekologiskt matbröd, kaffebröd samt säsongprodukter som julstjärnor, runebergstårtor och memma till dagligvaruhandeln i Finland. Backers kända skärgårdsbröd, rågsurbröd och speltknäckebröd säljs även i Sverige och på Åland. Backers ekologiska, lokalproducerade och för hand bakade produkter tillför mångfald i butikernas produktsortiment. Här kan du bekanta dig med våra produkter.",
+    "Backers Baker Ab är ett familjeföretag som levererar ekologiskt matbröd, kaffebröd samt säsongprodukter som julstjärnor, runebergstårtor och memma till dagligvaruhandeln i Finland. Backers kända skärgårdsbröd, rågsurbröd och speltknäckebröd säljs även i Sverige och på Åland. Backers ekologiska, lokalproducerade och för hand bakade produkter tillför mångfald i butikernas produktsortiment.",
 
   "bakery.subtitle.one": "Leveransbeställningar",
   "bakery.subcontent.one":

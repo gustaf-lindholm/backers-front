@@ -40,7 +40,7 @@ export const fi = {
   "bakery.title": "Leipomo",
   "bakery.maintitle": "Backers – luomuartesaanileipää Länsi-uudeltamaalta",
   "bakery.maincontent":
-    "Backers Bakersin perheyritys toimittaa luomuleipää, kahvileipiä ja sesonkituotteita kuten joulutorttuja, runebergintorttuja ja mämmiä päivittäistavarakauppoihin Suomessa. Backersin tunnettua saaristolaisleipää, ruishapanjuurileipää ja spelttinäkkileipää löytyy myös Ruotsista ja Ahvenanmaalta. Backersin luomu, lähituotetut ja käsinleivotut leipomotuotteet tuovat moninaisuutta kauppojen tuotevalikoimiin. Täällä voit tutustua tuotteisiimme.",
+    "Backers Bakersin perheyritys toimittaa luomuleipää, kahvileipiä ja sesonkituotteita kuten joulutorttuja, runebergintorttuja ja mämmiä päivittäistavarakauppoihin Suomessa. Backersin tunnettua saaristolaisleipää, ruishapanjuurileipää ja spelttinäkkileipää löytyy myös Ruotsista ja Ahvenanmaalta. Backersin luomu, lähituotetut ja käsinleivotut leipomotuotteet tuovat moninaisuutta kauppojen tuotevalikoimiin.",
 
   "bakery.subtitle.one": "Jatkuvat toimitustilaukset",
   "bakery.subcontent.one":

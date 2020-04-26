@@ -9,7 +9,7 @@ import {
 } from "./components/Routing";
 
 import Layout from "./components/Layout/Layout";
-import Home from "./containers/Home/Home";
+import Home from "./components/Home/Home";
 import Cafe from "./components/Cafe/Cafe";
 import Error from "./components/Error";
 import Bakery from "./components/Bakery/Bakery";

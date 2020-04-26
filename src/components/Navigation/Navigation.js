@@ -9,9 +9,9 @@ export const Navigation = () => {
 
   return (
     <header className="bg-white w-100 pv3 pv4-ns ph4-m shadow-5 fixed h4">
-      <nav className="db dt-l w-100 border-box ph6-l">
-        <a className="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
-          <img className="dib w3 h3" alt="Site Name" src="https://res.cloudinary.com/babiluskus/image/upload/v1586975703/backers-simple-front/Backers_logo_ekologiskt_luomu.jpg" />
+      <nav className="dt-l w-100 border-box ph6-l">
+        <a className="dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
+          <img className="dib w3 h3" alt="Site Name" src="https://res.cloudinary.com/babiluskus/image/upload/v1586975703/backers-simple-front/Backers_logo_transparent_liten.jpg" />
         </a>
         <div className="db dtc-l v-mid w-100 w-50-l tc tr-l">
         {Object.keys(AppRoute).map((elem, key) => (

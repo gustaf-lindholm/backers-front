@@ -4,6 +4,6 @@ import ArticleComponent from '../ArticleComponent/ArticleComponent';
 export default function Cafe(props) {
   console.log("[CAFE]",props)
   return (
-    <ArticleComponent subject="cafe" quote={false}/>
+    <ArticleComponent subject="cafe" image="backers_cafe_ekologiskt_luomu" quote={false}/>
   )
 }
