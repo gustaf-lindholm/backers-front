@@ -1,5 +1,4 @@
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
 import ArticleComponent from '../ArticleComponent/ArticleComponent';
 // import { Helmet } from "react-helmet-async";
 

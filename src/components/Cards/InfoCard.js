@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import { FormattedMessage, FormattedHTMLMessage} from "react-intl";
+import { FormattedHTMLMessage} from "react-intl";
 
 export default function InfoCard(props) {
   const { messageId } = props;
   const image = `https://res.cloudinary.com/babiluskus/image/upload/v1586975703/backers-simple-front/${props.image}.jpg`;
   const Wrapper = styled.div.attrs({
-    className: "fl w-100 w-50-ns border-box overflow-hidden ba bw2 white"
+    className: "fl w-100 w-50-l border-box overflow-hidden ba bw2 white"
   })``;
 
   const Cover = styled.div.attrs({

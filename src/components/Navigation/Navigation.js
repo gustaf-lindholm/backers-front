@@ -1,6 +1,6 @@
 import React from 'react';
 import { LanguageSwitcher } from '../Routing';
-import { useIntl } from 'react-intl';
+import { useIntl, FormattedMessage } from 'react-intl';
 import { AppRoute, AppRouteTitles } from '../../const/app-routes';
 import { Link } from 'react-router-dom';
 
@@ -8,22 +8,52 @@ export const Navigation = () => {
   const { formatMessage, locale } = useIntl();
 
   return (
-    <header className="bg-white w-100 pv3 pv4-ns ph4-m shadow-5 fixed h4">
-      <nav className="dt-l w-100 border-box ph6-l">
-        <a className="dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
-          <img className="dib w3 h3" alt="Site Name" src="https://res.cloudinary.com/babiluskus/image/upload/v1586975703/backers-simple-front/Backers_logo_transparent_liten.jpg" />
+    <header className="bg-white w-100 pb3 pb0-l shadow-5 fixed z-5">
+      <div className="h2 absolute ph6-l top-0 right-0 pt2">
+        <a href="tel:+358192461658" className="link ba-brown mr2">
+          <i className="fas fa-phone-alt"></i> <FormattedMessage id="contact.phone" />
         </a>
-        <div className="db dtc-l v-mid w-100 w-50-l tc tr-l">
-        {Object.keys(AppRoute).map((elem, key) => (
-          <Link className="link dim dark-gray f6 f5-l dib mr3 mr4-l" key={key} to={localizeRouteKey(AppRoute[elem])}>
-            {formatMessage({
-              id: `${AppRouteTitles.get(AppRoute[elem])}` || '',
-            })}
+        <a
+          className="link h2 ba-brown"
+          href="https://www.facebook.com/backersbaker/"
+          target="_blank"
+        >
+          <i className="fa fa-facebook-f"></i>
+        </a>
+        <a
+          className="link mh2 ba-brown"
+          href="https://www.instagram.com/backers_baker/"
+          target="_blank"
+          rel="noopener"
+        >
+          <i className="mh2 fa fa-instagram"></i>
+        </a>
+      </div>
+      <nav className="w-100 border-box ph6-l flex flex-row flex-wrap justify-between mt3 mt0-ns">
+        <div className="w-100 w-40-l flex justify-center items-center">
+          <Link title="Home" to="/">
+            <img
+              className="w4"
+              alt="Backers Baker"
+              src="https://res.cloudinary.com/babiluskus/image/upload/v1586975703/backers-simple-front/Backers_logo_transparent_liten.png"
+            />
           </Link>
-        ))}
         </div>
-        <div className="db dtc-l v-mid w-100 w-25-l tc tr-l mt3">
-        <LanguageSwitcher />
+        <div className="w-100 w-60-l flex flex-wrap flex-nowrap-ns justify-center items-center">
+          {Object.keys(AppRoute).map((elem, key) => (
+            <Link
+              className="link dim dark-gray fw4 f4 f5-l mr3 mr4-l"
+              key={key}
+              to={localizeRouteKey(AppRoute[elem])}
+            >
+              {formatMessage({
+                id: `${AppRouteTitles.get(AppRoute[elem])}` || '',
+              })}
+            </Link>
+          ))}
+          <div className="mt3 mt0-ns">
+            <LanguageSwitcher />
+          </div>
         </div>
       </nav>
     </header>

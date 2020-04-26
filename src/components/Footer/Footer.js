@@ -12,14 +12,14 @@ const Footer = () => {
             <FormattedMessage id="footer.title" />
           </h3>
           <p>
-            <FormattedMessage id="footer.companyName" />
+            <FormattedMessage id="contact.companyName" />
           </p>
           <p>
-            <FormattedMessage id="footer.address" />
+            <FormattedMessage id="contact.address" />
           </p>
           <p>
-            <FormattedMessage id="footer.phonePrefix" />
-            <FormattedMessage id="footer.phone" />
+            <FormattedMessage id="contact.phonePrefix" />
+            <FormattedMessage id="contact.phone" />
           </p>
           <a href="mailto:" className="link dim black-70 lh-solid">
             <FormattedMessage id="footer.email" />

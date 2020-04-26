@@ -66,13 +66,13 @@ const baseStrings = {
   "stores.title": "Butiker",
 
   "footer.title": "Kontakt",
-  "footer.companyName": "Backers Baker Ab",
-  "footer.address": "Borgbyvägen 2, 10440 Bollstad Finland",
-  "footer.phone": "+358-19-246 1658",
-  "footer.phonePrefix": "tel. ",
   "footer.email": "info(at)backers.fi",
-  "footer.socialMedia": "Backers på sociala medier"
-
+  "footer.socialMedia": "Backers på sociala medier",
+  
+  "contact.companyName": "Backers Baker Ab",
+  "contact.address": "Borgbyvägen 2, 10440 Bollstad Finland",
+  "contact.phonePrefix": "tel. ",
+  "contact.phone": "+358-19-246 1658",
 };
 
 export const LanguageStrings = baseStrings;

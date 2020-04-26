@@ -8,11 +8,11 @@ const ArticleComponent = (props) => {
     backgroundImage: `url(https://res.cloudinary.com/babiluskus/image/upload/v1586975703/backers-simple-front/${image}.jpg)`,
   };
   return (
-    <article className="bg-white pb5">
-      <div className="vh-50 cover bg-center" style={background}></div>
-      <div className="ph4 ph5-m ph6-l">
-        <div className="pv5 f4 f2-ns measure center">
-          <h1 className="f2 lh-copy">
+    <article className="bg-white">
+      <div className="vh-50 mt4 mt0-l cover bg-center" style={background}></div>
+      <div className="ph4 ph5-m ph6-l mb5">
+        <div className="f2-ns measure center">
+          <h1 className="f1-ns f2-m f3 lh-copy">
             <FormattedMessage id={`${subject}.maintitle`} />
           </h1>
           <p className="db lh-copy black-70 serif fw1 mv0 f4 f3-m f2-l measure baskerville">

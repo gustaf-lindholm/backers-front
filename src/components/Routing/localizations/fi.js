@@ -56,12 +56,13 @@ export const fi = {
   "stores.title": "Myyntipaikkat",
 
   "footer.title": "Yhteistiedot",
-  "footer.companyName": "Backers Baker Oy",
-  "footer.address": "Borgbyntie 2, 10440 Bollstad Finland",
-  "footer.phonePrefix": "puh. ",
-  "footer.phone": "+358-19-246 1658",
   "footer.email": "info(at)backers.fi",
-  "footer.socialMedia": "Backers somessa"
+  "footer.socialMedia": "Backers somessa",
+  
+  "contact.companyName": "Backers Baker Oy",
+  "contact.address": "Borgbyntie 2, 10440 Bollstad Finland",
+  "contact.phonePrefix": "puh. ",
+  "contact.phone": "+358-19-246 1658",
 };
 
 // Yhteystiedot
