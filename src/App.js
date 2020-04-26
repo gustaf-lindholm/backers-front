@@ -4,7 +4,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import { AppLanguage, AppRoute } from "./const";
 import { HelmetProvider } from "react-helmet-async";
 import Home from "./containers/Home/Home";
-import Cafe from "./containers/Cafe/Cafe";
+import Cafe from "./components/Cafe/Cafe";
 import Error from "./components/Error";
 import {
   LocalizedRouter,

@@ -6,8 +6,8 @@ const Footer = () => {
     'https://res.cloudinary.com/babiluskus/image/upload/v1586975703/backers-simple-front/ax_luomu_ekologiskt.jpg';
   return (
     <>
-      <footer className="tc ph3 mt5 w-100 flex flex-wrap ph6-l items-center">
-        <div className="w-50-ns w-100 h5">
+      <footer className="tc ph3 pt5 w-100 flex flex-wrap ph6-l items-center justify-around">
+        <div className="w-33-ns w-100 h5">
           <h3 className="f4 measure-wide ba-yellow tracked">
             <FormattedMessage id="footer.title" />
           </h3>
@@ -25,7 +25,7 @@ const Footer = () => {
             <FormattedMessage id="footer.email" />
           </a>
         </div>
-        <div className="w-50-ns w-100 h5">
+        <div className="w-33-ns w-100 h5">
           <h3 className="f4 measure-wide ba-yellow tracked">
             <FormattedMessage id="footer.socialMedia" />
           </h3>
