@@ -44,7 +44,7 @@ export const Navigation = () => {
   };
 
   return (
-    <header className="bg-white w-100 pb3 pb0-l shadow-5 fixed z-5 h4 flex">
+    <header className="bg-white w-100 pv3 shadow-5 fixed z-5 h4-ns flex">
       <BurgerIcon open={open} setOpen={setOpen} />
       <MobileMenu className="ba-brown tc ttc" open={open}>
         <LanguageSwitcher className="ba-brown"/>

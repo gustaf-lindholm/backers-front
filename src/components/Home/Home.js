@@ -14,8 +14,8 @@ export default function Home(props) {
       {/* <Helmet>
         <title>Backers Baker - Ekologiskt bröd</title>
       </Helmet> */}
-      <div className="vh-50 mt4 mt0-l cover bg-center flex justify-center items-center" style={background}>
-        <img className="h5" src="https://res.cloudinary.com/babiluskus/image/upload/v1586975703/backers-simple-front/Backers_logo_vit_transparent.png" alt="backers logo"/>
+      <div className="vh-50 mt0-ns cover bg-center flex justify-center items-center" style={background}>
+        <img className="h5-ns" src="https://res.cloudinary.com/babiluskus/image/upload/v1586975703/backers-simple-front/Backers_logo_vit_transparent.png" alt="backers logo"/>
       </div>
       <article className="bg-white">
         <div className="ph4 ph5-m ph6-l mb5">

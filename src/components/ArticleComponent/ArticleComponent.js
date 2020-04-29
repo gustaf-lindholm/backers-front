@@ -9,7 +9,7 @@ const ArticleComponent = (props) => {
   };
   return (
     <article className="bg-white">
-      <div className="vh-50 mt4 mt0-l cover bg-center" style={background}></div>
+      <div className="vh-50 mt0-ns cover bg-center" style={background}></div>
       <div className="ph4 ph5-m ph6-l mb5">
         <div className="f2-ns measure center">
           <h1 className="f1-ns f2-m f3 lh-copy">
