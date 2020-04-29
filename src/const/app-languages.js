@@ -1,4 +1,10 @@
 export const AppLanguage = {
-  Swedish: "se",
-  Finnish: "fi"
-}
+  Swedish: {
+    locale: 'se',
+    name: 'Svenska',
+  },
+  Finnish: {
+    locale: 'fi',
+    name: 'Suomeksi',
+  },
+};

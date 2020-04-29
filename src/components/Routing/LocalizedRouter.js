@@ -18,7 +18,7 @@ export function LocalizedRouter({
            * Set default locale to se if base path is used without a language
            */
           const params = match ? match.params : {};
-          const { lang = defaultLanguage || AppLanguage.Swedish } = params;
+          const { lang = defaultLanguage || AppLanguage.Swedish.locale } = params;
 
           /**
            * If language is not in route path, redirect to language root

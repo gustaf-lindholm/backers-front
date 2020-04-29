@@ -10,29 +10,47 @@ export const Navigation = () => {
   const { formatMessage, locale } = useIntl();
   const [open, setOpen] = useState(false);
 
+  const links = {
+    phone: (
+      <a className="link dim" href="tel:+358192461658">
+        <i className="fa fa-phone"></i>
+        <p className="ma0">
+          <FormattedMessage id="contact.phone" />
+        </p>
+      </a>
+    ),
+    instagram: (
+      <a
+        className="link dim"
+        href="https://www.instagram.com/backers_baker/"
+        target="_blank"
+        rel="noopener"
+      >
+        <i className="fa fa-instagram"></i>
+        <p className="ma0 ">Instagram</p>
+      </a>
+    ),
+    facebook: (
+      <a
+        className="link dim"
+        href="https://www.facebook.com/backersbaker/"
+        target="_blank"
+        rel="noopener"
+      >
+        <i className="fa fa-facebook-f"></i>
+        <p className="ma0">Facebook</p>
+      </a>
+    ),
+  };
+
   return (
     <header className="bg-white w-100 pb3 pb0-l shadow-5 fixed z-5 h4 flex">
       <BurgerIcon open={open} setOpen={setOpen} />
-      <MobileMenu open={open}>
-        <a href="tel:+358192461658" className="link ba-brown mr2">
-          <i className="fas fa-phone-alt"></i> <FormattedMessage id="contact.phone" />
-        </a>
-        <a
-          className="link h2 ba-brown"
-          href="https://www.facebook.com/backersbaker/"
-          target="_blank"
-        >
-          <i className="fa fa-facebook-f"></i>
-        </a>
-        <a
-          className="link h2 ba-brown"
-          href="https://www.instagram.com/backers_baker/"
-          target="_blank"
-          rel="noopener"
-        >
-          <i className="fa fa-instagram"></i>
-        </a>
-        <LanguageSwitcher />
+      <MobileMenu className="ba-brown tc ttc" open={open}>
+        <LanguageSwitcher className="ba-brown"/>
+        {links.phone}
+        {links.instagram}
+        {links.facebook}
       </MobileMenu>
 
       <div className="h2 absolute ph6-l top-0 right-0 pt2 db-l dn">

@@ -14,8 +14,8 @@ export function LanguageSwitcher() {
   return (
         Object.keys(AppLanguage).map((lang, key) => {
           return (
-              <NavLink key={key} className="f6 link dim ba bw1 ph3 pv2 mh2-l mh1 dib black" to={getMatchingRoute(AppLanguage[lang])}>
-                {AppLanguage[lang]}
+              <NavLink key={key} className="link dim black" to={getMatchingRoute(AppLanguage[lang].locale)}>
+                {AppLanguage[lang].name}
               </NavLink>
           );
         })
