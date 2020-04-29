@@ -6,6 +6,11 @@ import { appStrings } from "./";
 export function LanguageSwitcher() {
   const { pathname } = useLocation();
   const { locale, messages } = useIntl();
+
+  // vilket språk aktivt?
+  // visa länk på motsatt språk
+  // byt till motsatt vid klick
+
   return (
         Object.keys(AppLanguage).map((lang, key) => {
           return (

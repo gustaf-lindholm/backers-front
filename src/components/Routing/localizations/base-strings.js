@@ -40,7 +40,7 @@ const baseStrings = {
   "bakery.title": "Bageriet",
   "bakery.maintitle": "Backers - ekologiskt brödhantverk från Västnyland",
   "bakery.maincontent":
-    "Backers Baker Ab är ett familjeföretag som levererar ekologiskt matbröd, kaffebröd samt säsongprodukter som julstjärnor, runebergstårtor och memma till dagligvaruhandeln i Finland. Backers kända skärgårdsbröd, rågsurbröd och speltknäckebröd säljs även i Sverige och på Åland. Backers ekologiska, lokalproducerade och för hand bakade produkter tillför mångfald i butikernas produktsortiment.",
+    "Backers Baker Ab är ett familjeföretag som levererar ekologiskt matbröd, kaffebröd samt säsongprodukter som julstjärnor, runebergstårtor och memma till dagligvaruhandeln i Finland. Backers kända maltlimpa, rågsurbröd och speltknäckebröd säljs även i Sverige och på Åland. Backers ekologiska, lokalproducerade och för hand bakade produkter tillför mångfald i butikernas produktsortiment.",
 
   "bakery.subtitle.one": "Leveransbeställningar",
   "bakery.subcontent.one":
