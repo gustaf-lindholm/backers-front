@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { LanguageSwitcher } from '../Routing';
 import { useIntl, FormattedMessage } from 'react-intl';
 import { AppRoute, AppRouteTitles } from '../../const/app-routes';
@@ -9,6 +9,9 @@ import MobileMenu from './MobileMenu/MobileMenu';
 export const Navigation = () => {
   const { formatMessage, locale } = useIntl();
   const [open, setOpen] = useState(false);
+  const node = useRef();
+
+
 
   const links = {
     phone: (
@@ -44,9 +47,9 @@ export const Navigation = () => {
   };
 
   return (
-    <header className="bg-white w-100 pv3 shadow-5 fixed z-5 h4-ns flex">
+    <header className="bg-white w-100 pv2 shadow-5 fixed z-5 h4 flex">
       <BurgerIcon open={open} setOpen={setOpen} />
-      <MobileMenu className="ba-brown tc ttc" open={open}>
+      <MobileMenu onClick={() => setOpen(false)} className="ba-brown tc ttc" open={open}>
         <LanguageSwitcher className="ba-brown"/>
         {links.phone}
         {links.instagram}
@@ -73,7 +76,7 @@ export const Navigation = () => {
           <i className="mh2 fa fa-instagram"></i>
         </a>
       </div>
-      <nav className="w-100 border-box ph6-l flex flex-row flex-wrap justify-between mt3 mt0-ns">
+      <nav className="w-100 border-box ph6-l flex flex-row flex-wrap justify-between">
         <div className="w-100 w-40-l flex justify-center items-center">
           <Link title="Home" to="/">
             <img
