@@ -2,6 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import { FormattedHTMLMessage} from "react-intl";
 
+/**
+ * 
+ * @todo move styled component ouside function component
+ */
 export default function InfoCard(props) {
   const { messageId } = props;
   const image = `https://res.cloudinary.com/babiluskus/image/upload/v1586975703/backers-simple-front/${props.image}.jpg`;

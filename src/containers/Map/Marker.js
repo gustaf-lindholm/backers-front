@@ -17,17 +17,17 @@ const Marker = (props) => {
   console.log(props)
   const navigationButton = document.createElement('a');
   navigationButton.classList =
-    'ba br3 f5 no-underline black pointer dim inline-flex items-center pa3 border-box';
+    'f4 no-underline black pointer dim inline-flex items-center pa3 border-box';
 
   const cardText = document.createElement('span');
-  cardText.classList = 'pl1';
+  cardText.classList = 'mr2';
   cardText.innerText = props.name;
 
   const icon = document.createElement('i');
   icon.classList = 'fas fa-directions fa-2x';
 
-  navigationButton.appendChild(icon);
   navigationButton.appendChild(cardText);
+  navigationButton.appendChild(icon);
 
   navigationButton.addEventListener('click', () => {
     mapsSelector(props.name, props.latitude, props.longitude);
