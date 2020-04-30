@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import { AppLanguage, AppRoute } from "./const";
-import { HelmetProvider } from "react-helmet-async";
+// import { HelmetProvider } from "react-helmet-async";
 import {
   LocalizedRouter,
   LocalizedSwitch,
@@ -17,6 +17,7 @@ import StoreFinder from "./containers/StoreFinder/StoreFinder";
 
 
 function App() {
+
   return (
       <LocalizedRouter
         RouterComponent={BrowserRouter}
@@ -28,7 +29,7 @@ function App() {
             <Route exact path={AppRoute.Home}>
               {Home}
             </Route>
-            <Route exact path={AppRoute.Cafe}>
+            <Route exact path={AppRoute.BakeryShop}>
               {Cafe}
             </Route>
             <Route exact path={AppRoute.Bakery}>

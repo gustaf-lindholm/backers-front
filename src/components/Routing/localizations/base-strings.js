@@ -1,7 +1,7 @@
 const baseStrings = {
   //**  Routes  **/
   "routes.home": "/",
-  "routes.cafe": "/cafe",
+  "routes.bakeryShop": "/bageributik",
   "routes.bakery": "/bageriet",
   "routes.products": "/produkter",
   "routes.stores": "/butiker",
@@ -13,28 +13,28 @@ const baseStrings = {
 
   /** Page content */
   "home.title": "Backers",
-  "home.cafe.info": "Kafé och bageributik i Raseborg strax utanför Fiskars.",
-  "home.cafe.hours.weekdays": "måndag – fredag klockan 08-17 </br> lördag klockan 09-15",
-  "home.cafe.hours.saturday": "lördag klockan 09-15",
+  "home.bakeryShop.info": "Bageributik i Raseborg strax utanför Fiskars.",
+  "home.bakeryShop.hours.weekdays": "måndag – fredag klockan 08-17 </br> lördag klockan 09-15",
+  "home.bakeryShop.hours.saturday": "lördag klockan 09-15",
   "home.slogan":
     "Backers goda ekologiska bröd hittar du i butiker från Hangö till Helsingfors, på Åland och i Stockholm.",
   "home.contactinfo": "Borgbyvägen 2, Bollstad</br>019-246 1658</br>info(at)backers.fi",
 
-  "cafe.title": "Café",
-  "cafe.maintitle": "Backers kafé och bageributik",
-  "cafe.maincontent":
-    "Backers kafé och bageributik ligger i Raseborg strax utanför Fiskars. Här kan du njuta av ugnsfärsk bulla och fyllda semlor tillsammans med en kopp kaffe eller te. Du kan också köpa med dig dagsfärskt ekologiskt bröd direkt från våra bagare. I kaféet och bageributiken hittar du ibland specialprodukter som inte finns ute i butikerna – prima och ibland sekunda. Följ vår facebook -sida för nyheter om specialevenemang och erbjudanden i kaféet.",
+  "bakeryShop.title": "Bageributik",
+  "bakeryShop.maintitle": "Backers bageributik",
+  "bakeryShop.maincontent":
+    "Backers bageributik ligger i Raseborg strax utanför Fiskars. Här kan du njuta av ugnsfärsk bulla och fyllda semlor tillsammans med en kopp kaffe eller te. Du kan också köpa med dig dagsfärskt ekologiskt bröd direkt från våra bagare. I kaféet och bageributiken hittar du ibland specialprodukter som inte finns ute i butikerna – prima och ibland sekunda. Följ vår facebook -sida för nyheter om specialevenemang och erbjudanden i kaféet.",
 
-  "cafe.subtitle.one": "Kafébeställningar & förfrågningar",
-  "cafe.subcontent.one":
+  "bakeryShop.subtitle.one": "Kafébeställningar & förfrågningar",
+  "bakeryShop.subcontent.one":
     "Söker du efter ett visst bröd i vårt sortiment eller vill du kanske beställa en större mängd kaffebröd? Gör då en förhandsbeställning för att försäkra dig om att just din favoritprodukt finns till hands. Kafébeställningar tel. +358-19-241 1674 (under kaféets öppethållningstider) eller kafe(at)backers.fi. Företagskunder hänvisas till bageriets försäljning.",
 
-  "cafe.subtitle.two": "Möten i kaféet",
-  "cafe.subcontent.two":
+  "bakeryShop.subtitle.two": "Möten i kaféet",
+  "bakeryShop.subcontent.two":
     "Har du behov av ett ställe för ett möte eller en sammankomst? Vi kan förbereda ett bord i kaféet för er grupp med kaffe och annat bjudbart enligt era behov. Kontakta vårt kafé för mer info.",
 
-  "cafe.subtitle.three": "Hitta till oss",
-  "cafe.subcontent.three":
+  "bakeryShop.subtitle.three": "Hitta till oss",
+  "bakeryShop.subcontent.three":
     "Du hittar oss på Borgbyvägen 2, i Bollstad. Kör mot Fiskars och följ skyltarna till Backers bageri.",
 
   "bakery.title": "Bageriet",

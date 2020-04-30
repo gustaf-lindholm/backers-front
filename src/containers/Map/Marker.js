@@ -8,7 +8,7 @@ function mapsSelector(name, lat, long) {
     window.open(`maps://maps.google.com/maps?daddr=${lat},${long}&amp;ll=`);
     /* else use Google */
   } else {
-    window.open(`https://maps.google.com/maps/dir// ${name}`);
+    window.open(`https://maps.google.com/maps/dir/${name}`);
   }
 }
 

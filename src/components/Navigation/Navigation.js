@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import { LanguageSwitcher } from '../Routing';
 import { useIntl, FormattedMessage } from 'react-intl';
 import { AppRoute, AppRouteTitles } from '../../const/app-routes';
@@ -6,12 +6,9 @@ import { Link } from 'react-router-dom';
 import BurgerIcon from './MobileMenu/BurgerIcon';
 import MobileMenu from './MobileMenu/MobileMenu';
 
-export const Navigation = () => {
+const Navigation = () => {
   const { formatMessage, locale } = useIntl();
   const [open, setOpen] = useState(false);
-  const node = useRef();
-
-
 
   const links = {
     phone: (
@@ -27,7 +24,7 @@ export const Navigation = () => {
         className="link dim"
         href="https://www.instagram.com/backers_baker/"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
       >
         <i className="fa fa-instagram"></i>
         <p className="ma0 ">Instagram</p>
@@ -38,7 +35,7 @@ export const Navigation = () => {
         className="link dim"
         href="https://www.facebook.com/backersbaker/"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
       >
         <i className="fa fa-facebook-f"></i>
         <p className="ma0">Facebook</p>
@@ -50,7 +47,7 @@ export const Navigation = () => {
     <header className="bg-white w-100 pv2 shadow-5 fixed z-5 h4 flex">
       <BurgerIcon open={open} setOpen={setOpen} />
       <MobileMenu onClick={() => setOpen(false)} className="ba-brown tc ttc" open={open}>
-        <LanguageSwitcher className="ba-brown"/>
+        <LanguageSwitcher className="ba-brown" />
         {links.phone}
         {links.instagram}
         {links.facebook}
@@ -64,6 +61,7 @@ export const Navigation = () => {
           className="link h2 ba-brown"
           href="https://www.facebook.com/backersbaker/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <i className="fa fa-facebook-f"></i>
         </a>
@@ -71,7 +69,7 @@ export const Navigation = () => {
           className="link mh2 ba-brown"
           href="https://www.instagram.com/backers_baker/"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           <i className="mh2 fa fa-instagram"></i>
         </a>
@@ -110,3 +108,5 @@ export const Navigation = () => {
     return `/${locale}` + formatMessage({ id: path });
   }
 };
+
+export default Navigation;
