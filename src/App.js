@@ -27,16 +27,16 @@ function App() {
         <Layout>
           <LocalizedSwitch>
             <Route exact path={AppRoute.Home}>
-              {Home}
+              <Home />
             </Route>
             <Route exact path={AppRoute.BakeryShop}>
-              {Cafe}
+              <Cafe />
             </Route>
             <Route exact path={AppRoute.Bakery}>
-              {Bakery}
+              <Bakery />
             </Route>
             <Route exact path={AppRoute.Stores}>
-              {StoreFinder}
+              <StoreFinder />
             </Route>
             <Route path="*">{Error}</Route>
           </LocalizedSwitch>

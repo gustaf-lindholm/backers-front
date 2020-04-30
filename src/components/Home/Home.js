@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useIntl, FormattedMessage } from 'react-intl';
 // import { Helmet } from 'react-helmet-async';
 import FrontPageArticle from '../ArticleComponents/FrontPageArticle';
-import { AppRoute } from '../../const/index';
+import { AppRoute, AppRouteTitles } from '../../const/index';
 import { Link } from 'react-router-dom';
 
 const Home = (props) => {
@@ -10,8 +10,12 @@ const Home = (props) => {
     backgroundImage:
       'url(https://res.cloudinary.com/babiluskus/image/upload/v1586975703/backers-simple-front/Backer_vappen_wienermunk.jpg)',
   };
-
   const { formatMessage, locale } = useIntl();
+
+  function localizeRouteKey(path) {
+    return `/${locale}` + formatMessage({ id: path });
+  }
+
   return (
     <>
       <div
@@ -41,27 +45,19 @@ const Home = (props) => {
           headerId="home.bakeryShop.info"
           introTextId="home.bakeryShop.hours.weekdays"
           image="backers_cafe_ekologiskt_luomu"
+          topBorder
         />
-        <FrontPageArticle
-          headerId="home.slogan"
-          introTextId="home.bakeryShop.hours.weekdays"
-          image="backers_bröd_eko_luomu"
-        >
-          <Link to={AppRoute.Stores}>Butiker</Link>
+        <FrontPageArticle headerId="home.slogan" image="backers_bröd_eko_luomu">
+          <Link to={localizeRouteKey(AppRoute.Stores)}>
+            {' '}
+            {formatMessage({
+              id: `${AppRouteTitles.get(AppRoute.Stores)}` || '',
+            })}
+          </Link>
         </FrontPageArticle>
-
-        {/* <AspectRatioImage image="backers_bröd_eko_luomu" messageId="home.slogan" />
-          <AspectRatioImage
-            image="backers_butik_ekologiskt_luomu"
-            messageId="home.cafe.hours.weekdays"
-          />
-          <AspectRatioImage
-            image="backers_bageri_leipomo_ekologiskt_luomu"
-            messageId="home.contactinfo"
-          /> */}
       </section>
     </>
   );
-}
+};
 
 export default Home;
